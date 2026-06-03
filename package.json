@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "eslint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages"
+    "deploy": "gh-pages -d next"
   },
   "dependencies": {
     "@vercel/analytics": "^1.6.1",
