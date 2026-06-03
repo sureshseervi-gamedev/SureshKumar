@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { JetBrains_Mono, Press_Start_2P } from "next/font/google";
 import "./globals.css";
 import GoogleAnalytics from "./components/GoogleAnalytics";
-import { Analytics } from "@vercel/analytics/next";
+git push -u origin mainimport { Analytics } from "@vercel/analytics/next";
 import { getGameDevYears, getWebMobileYears } from "./utils/calculateExperience";
 
 const jetbrainsMono = JetBrains_Mono({
